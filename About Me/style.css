@@ -1,8 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background:linear-gradient(to top, rgba(0,0,0, 0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg) no-repeat;
+    background:linear-gradient(to top, rgba(0,0,0, 0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg);
     background-size: cover;
+    background-attachment:fixed;
+    background-repert:no-repert; 
+    background-position:center;
+    bacground-align:cover;
 }
 
 .box{
