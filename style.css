@@ -76,3 +76,11 @@ h1{
 .text p a:hover{
     color: rgb(2, 175, 243);
 }
+
+img{
+    height: 200px;
+    width: 200px;
+    padding-left: 60px;
+    padding-top: 20px;
+    shape-image-threshold: inherit;
+}
